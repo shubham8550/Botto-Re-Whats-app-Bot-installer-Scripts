@@ -2,7 +2,7 @@
 where git.exe >nul 2>&1 && echo: || echo git not installed
 git clone https://github.com/SomnathDas/Whatsapp-Botto-Re || goto :error
 cd Whatsapp-Botto-Re || goto :error
-npm install || goto :error
+rem npm install || goto :error
 
 echo ------Bot Nodejs dependancys Successfully Installed ------
 :bin1

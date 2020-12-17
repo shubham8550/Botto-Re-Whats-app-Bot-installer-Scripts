@@ -4,7 +4,7 @@ where git.exe >nul 2>&1 && echo: || echo git not installed
 git clone https://github.com/SomnathDas/Whatsapp-Botto-Re || echo Directory Exist Assuming you already cloned repo
 cd Whatsapp-Botto-Re || goto :error
 if exist ./node_modules (
-    echo gif2webp already Exist ...Skipping
+    echo node_modules already Exist ...Skipping
 ) else (
     echo ------Installing node_modules                  ------
     npm install || goto :error

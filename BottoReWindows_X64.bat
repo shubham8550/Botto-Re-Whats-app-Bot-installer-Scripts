@@ -3,17 +3,26 @@ CLS
 where git.exe >nul 2>&1 && echo: || echo git not installed
 git clone https://github.com/SomnathDas/Whatsapp-Botto-Re || echo Directory Exist Assuming you already cloned repo
 cd Whatsapp-Botto-Re || goto :error
-rem npm install || goto :error
+if exist ./node_modules (
+    echo gif2webp already Exist ...Skipping
+) else (
+    echo ------Installing node_modules                  ------
+    npm install || goto :error
+)
 echo npm start > "Run.bat"
 echo ------Bot Nodejs dependancys Successfully Installed ------
 :bin1
 echo ------Installing Required bin's                     ------
 where mogrify.exe >nul 2>&1 && echo: || (echo `Downloading and Installing ImageMagic (Install it with Legacy components eg mogrify.exe or it wont work` && GOTO :installmagick )
 :bin2
-echo ------Installing gif2webp                  ------
-powershell -Command "Invoke-WebRequest https://github.com/shubham8550/Botto-Re-Whats-app-Bot-installer-Scripts/raw/master/gif2webp.exe -OutFile gif2webp.exe"
 
+if exist gif2webp.exe (
+    echo gif2webp already Exist ...Skipping
+) else (
+    echo ------Installing gif2webp                  ------
+    powershell -Command "Invoke-WebRequest https://github.com/shubham8550/Botto-Re-Whats-app-Bot-installer-Scripts/raw/master/gif2webp.exe -OutFile gif2webp.exe"
 
+)
 echo ------[ DONE ]Botto re   Successfully Installed ------
 echo ------[ note ] you can Start bot with `Run.bat` ------
 

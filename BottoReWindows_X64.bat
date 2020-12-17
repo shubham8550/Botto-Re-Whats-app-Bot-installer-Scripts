@@ -4,7 +4,7 @@ where git.exe >nul 2>&1 && echo: || echo git not installed
 git clone https://github.com/SomnathDas/Whatsapp-Botto-Re || echo Directory Exist Assuming you already cloned repo
 cd Whatsapp-Botto-Re || goto :error
 rem npm install || goto :error
-echo node start > "Run.bat"
+echo npm start > "Run.bat"
 echo ------Bot Nodejs dependancys Successfully Installed ------
 :bin1
 echo ------Installing Required bin's                     ------

@@ -1,5 +1,6 @@
 @echo off
 CLS
+where node.exe >nul 2>&1 && echo: || echo Nodejs not installed install it from https://nodejs.org/en/download/   and run this installer again
 where git.exe >nul 2>&1 && echo: || echo git not installed
 git clone https://github.com/SomnathDas/Whatsapp-Botto-Re || echo Directory Exist Assuming you already cloned repo
 cd Whatsapp-Botto-Re || goto :error

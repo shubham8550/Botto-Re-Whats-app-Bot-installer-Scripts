@@ -6,7 +6,7 @@ Installer for  [SomnathDas/Whatsapp-Botto-Re](https://github.com/SomnathDas/What
 
 # How To install?
 [Windows]
-Open CMD
+Open CMD and
 Run this Command in Directory Where you want to install bot ..
   
 ```

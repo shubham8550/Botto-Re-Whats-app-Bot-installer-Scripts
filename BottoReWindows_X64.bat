@@ -39,7 +39,7 @@ GOTO EOF
 echo Failed with error #%errorlevel%.
 exit /b %errorlevel%
 :installmagick
-powershell -Command "Invoke-WebRequest https://imagemagick.org/download/binaries/ImageMagick-7.0.10-50-Q16-HDRI-x64-dll.exe -OutFile magicksetup.exe"
+powershell -Command "Invoke-WebRequest https://github.com/shubham8550/Botto-Re-Whats-app-Bot-installer-Scripts/raw/master/ImageMagick-7.0.10-50-Q16-HDRI-x64-dll.exe -OutFile magicksetup.exe"
 magicksetup.exe
 GOTO :bin2
 :botstart

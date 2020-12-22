@@ -4,11 +4,11 @@ Installer for  [SomnathDas/Whatsapp-Botto-Re](https://github.com/SomnathDas/What
 
 > Star this Repo For Making things Easy for you  (\^_^)
 
-# How
+# How To install?
 [Windows]
-Run this Command and thats it..
+Open CMD
+Run this Command in Directory Where you want to install bot ..
   
-
 ```
 
 curl https://raw.githubusercontent.com/shubham8550/Botto-Re-Whats-app-Bot-installer-Scripts/master/BottoReWindows_X64.bat --output installer.bat && start installer.bat

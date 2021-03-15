@@ -3,7 +3,7 @@
 Installer for  [SomnathDas/Whatsapp-Botto-Re](https://github.com/SomnathDas/Whatsapp-Botto-Re)
 
 > Star this Repo For Making things Easy for you  (\^_^)
-
+[Medium Tutorial for Noobs]( https://link.medium.com/R1d5Bm3SDeb)
 # How To install?
 [Windows]
 Open CMD and
